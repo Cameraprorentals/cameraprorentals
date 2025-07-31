@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9fa;
+  color: #0a1a39;
+}
+
+/* Hero */
+.hero {
+  background: #0a1a39;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+.cta-button {
+  background: #ffd700;
+  color: #0a1a39;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Features */
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.feature-grid div {
+  max-width: 260px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+  padding: 50px 20px;
+  justify-items: center;
+}
+.gallery img {
+  width: 220px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+/* WhatsApp + Instagram */
+.social-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+.whatsapp-button {
+  background: #25D366;
+  color: #fff;
+  padding: 14px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.instagram-embed {
+  margin-top: 40px;
+}
+
+/* Gear Page */
+.gear-header {
+  background: #0a1a39;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+.back-button {
+  color: #ffd700;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+.gear-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 25px;
+  padding: 40px 20px;
+}
+.gear-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+.card-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 20px;
+  background: #ffd700;
+  color: #0a1a39;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #0a1a39;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
